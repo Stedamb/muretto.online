@@ -5,6 +5,11 @@ import close from "./close.svg";
 import bg from "./bg.jpg";
 import hero from "./plant.jpg";
 
+import play from "./play.svg";
+import pauseIcon from "./pause.svg";
+import next from "./next.svg";
+import prev from "./prev.svg";
+
 import arrows from "./arrows.png";
 import plant from "./plant.png";
 import expand from "./expand.png";
@@ -23,6 +28,10 @@ export {
   close,
   bg,
   hero,
+  play, 
+  pauseIcon,
+  next,
+  prev,
   arrows, 
   plant,
   expand,
