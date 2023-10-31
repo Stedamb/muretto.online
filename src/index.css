@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700|Poppins:400');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 rounded;
+}
+
+.btn-start {
+    @apply bg-slate-100/30 hover:bg-[color:var(--accent)] text-white;
+}
+
+.btn-transition {
+    @apply transition ease-in-out hover:scale-125 duration-300;
+}
+
+:root {
+    /* Realtime Colors */
+    --text: #fff;
+    --background: #fffaeb;
+    --primary: #ff8400;
+    --secondary: #fff5d6;
+    --accent: #cf4307;
+    
+    /* Extra colors */
+    --navbar: var(--primary);
+
+    color-scheme: light dark;
+    color: var(--text);
+    background-color: var(--background);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+  
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, button {
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+html {font-size: 14px;} /* 12px */
+
+@media screen and (min-width: 768px) {
+    html {font-size: 16px;} /* 16px */
+}
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.55rem; /* 24.8px */}
+
+h6 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+a {
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+/* button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+} */
