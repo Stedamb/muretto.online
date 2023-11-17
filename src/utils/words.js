@@ -9,7 +9,8 @@ export const args = [
     'Architettura',
     'Tempo',
     'Armi',
-    'Amicizia'
+    'Amicizia',
+    'Cinema'
 ];
 
 export const words = [
